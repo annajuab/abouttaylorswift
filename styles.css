@@ -1,0 +1,189 @@
+:root {
+  --cor1: #6a65c5;
+  --cor2: #9d92ec;
+  --cor3: #b6a9ff;
+  --cor4: #c2b79b;
+  --cor5: #665e52;
+  --cor5: black;
+}
+
+@import url("'https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'");
+
+body {
+  font-family: "playfair", serif;
+  background-color: var(--cor3);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--cor1);
+  height: 100px;
+}
+
+nav {
+  background-color: var(--cor2);
+  height: 60px;
+}
+
+.menu {
+  position: relative;
+  top: 14px;
+  font-size: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  color: var(--cor5);
+  text-decoration: 0;
+}
+
+.menu:hover {
+  color: var(--cor3);
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  color: var(--cor3);
+}
+.principal {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.principal2 {
+  margin: 20px;
+  font-size: 18px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+
+.textorodape {
+  position: relative;
+  top: 80px;
+}
+
+.card {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 10px;
+  height: 300px;
+  width: 240px;
+}
+
+.card2 {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  background-color: var(--cor2);
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
+}
+
+.imgcard {
+  position: relative;
+  top: 20px;
+  height: 200px;
+}
+
+.textocard {
+  position: relative;
+  top: 40px;
+  color: var(--cor5);
+}
+
+.listaex {
+  position: absolute;
+  left: 800px;
+  width: 500px;
+  height: 400px;
+  top: 400px;
+  font-size: 20px;
+  
+}
+
+.lista {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 400px;
+  font-size: 20px;
+}
+
+.listafearless {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 500px;
+  font-size: 20px;
+}
+
+.listared {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 350px;
+  font-size: 20px;
+}
+
+.listalover {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 500px;
+  font-size: 20px;
+}
+
+.listafolklore {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 450px;
+  font-size: 20px;
+}
+
+.listaevermore {
+  position: absolute;
+  left: 650px;
+  width: 500px;
+  height: 400px;
+  top: 450px;
+  font-size: 20px;
+}
+
+.imglista {
+  position: absolute;
+  width: 4000px;
+  height: 400px;
+}
+
+.imgcard2 {
+  position: relative;
+  top: 40px;
+  height: 400px;
+}
+
+.imgcardinicio {
+  position: relative;
+  top: 30px;
+  height: 300px;
+}
+
+p {
+  font-size: 25px;
+}
